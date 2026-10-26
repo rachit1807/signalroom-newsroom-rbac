@@ -172,7 +172,7 @@ test("author cannot approve or publish their own story, even as administrator", 
     .send({ version: t.version })
     .expect(403);
 });
-test("simultaneous edits enforce optimistic concurrency; local data survives reopen", async () => {
+test("simultaneous edits enforce optimistic concurrency", async () => {
   const a = await demo();
   const {
     body: { story: t },

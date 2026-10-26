@@ -5,7 +5,7 @@
 
 A newsroom where every handoff matters — from the first draft to the public wire.
 
-[Explore the source](https://github.com/rachit1807/signalroom-newsroom-rbac) · [Permission matrix](docs/rbac-matrix.md) · [Architecture](docs/architecture.md)
+[Live website](https://signalroom-newsroom.onrender.com) · [Explore the source](https://github.com/rachit1807/signalroom-newsroom-rbac) · [Permission matrix](docs/rbac-matrix.md) · [Architecture](docs/architecture.md)
 
 <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,postgres,js,css,githubactions&theme=dark" alt="React, Vite, Node.js, Express, PostgreSQL, JavaScript, CSS, GitHub Actions" />
 
