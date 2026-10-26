@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#d8273c" />
+    <meta
+      name="description"
+      content="SignalRoom — an independent newsroom. Write with purpose. Publish with confidence."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>SignalRoom — The story starts here.</title>
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("signalroom-theme") ||
+          (matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light");
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
