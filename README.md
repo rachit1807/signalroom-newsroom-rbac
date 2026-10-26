@@ -19,6 +19,16 @@ SignalRoom turns role-based access control into a real editorial process. Report
 
 An original red-and-navy visual system combines animated web strands, layered editorial artwork, cut-corner buttons, expressive typography, light/dark themes, and layouts that adapt to phones, tablets, and desktops. Motion respects the device’s reduced-motion preference. Fonts are served locally.
 
+## Interface
+
+![SignalRoom desktop in dark mode](docs/screenshots/chromium-desktop-dark.png)
+
+<details><summary>Mobile newsroom</summary>
+
+<img src="docs/screenshots/webkit-mobile-desk.png" width="320" alt="SignalRoom mobile newsroom with story filters and editorial index" />
+
+</details>
+
 ## Explore the workflow
 
 1. Select **Explore the newsroom** for a private sample workspace.
